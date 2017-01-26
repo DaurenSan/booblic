@@ -28,11 +28,11 @@ body {
 
 @media only screen and (max-width: 765px)  {
 		.hero{
-		background:url("image_hero__1.jpg");
+		background:url("image_hero.jpg");
 		height: 100vh;
-		background-position: center top;
+		background-position: right;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 }
 /* ==================================== */
