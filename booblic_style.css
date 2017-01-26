@@ -19,11 +19,26 @@ body {
 }
 
 .hero{
-	background:url("boo.jpg");
+	background:url("image_hero.jpg");
 	height: 100vh;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+.hero{
+	background:url("image_hero.jpg");
+	height: 100vh;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 }
 /* ==================================== */
 /*		  	  Navigaton Menu		
